@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x:hidden;
+    background-color: rgb(255, 102, 0);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(9, 255, 0);
+    position: fixed;
+}
+
+.logo > p{
+    font-size: 22px;
+    color: rgb(255, 0, 106);
+}
+nav > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(23, 7, 255);
+    margin-right: 40px;
+}
+.tel > a {
+   font-size: 22px; 
+   text-decoration: none;
+   color: rgb(255, 0, 179);
+}
+nav > a:nth-child(4) {
+    margin-right: 0;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+}
+.first{
+    background: url('5ggg.jpeg') no-repeat center /cover;
+    border-radius: 100%;
+}
+.second{
+    background: url('6ttt.jpeg') no-repeat center /cover;
+}
+.third{
+    background: url('99tttggl.jpeg') no-repeat center /cover;
+    border-radius: 100%;
+}
+.fourth{
+    background: url('11ee.jpeg') no-repeat center /cover;
+}
